@@ -1,0 +1,35 @@
+.btn {
+  border-radius: 30px;
+  padding: 15px 30px;
+  background: #fd3a69;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}

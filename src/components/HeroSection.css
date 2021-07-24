@@ -1,0 +1,38 @@
+.hero-div {
+  /* height: 100vh; */
+  /* background-color: bisque; */
+  /* width: 100%; */
+  background-image: url("./../images/blob-nav.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  background-position: 0 -35px;
+}
+.hero-container {
+  margin: auto 0;
+  /* padding-top: 150px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero-container-items {
+  flex: 1 1 0px;
+}
+.hero-container-items h1 {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+.hero-container-items p {
+  font-size: 18px;
+}
+/* .hero-container-items-2 {
+  flex: 1 1 0px;
+} */
+.hero-image {
+  max-width: 90%;
+  min-width: 250px;
+}
